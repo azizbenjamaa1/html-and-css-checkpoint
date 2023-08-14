@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Welcoming  -->
+    <header>
+       <p>Welcome to my website where you can have some informations about our university and where you can sign in</p>
+    </header>
+    <hr>
+    <!--end welcoming -->
+    <!-- my university -->
+    <div id="University">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LlCwHnp3kL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <!-- sign in -->
+    <section id="sign in">
+        <h2>Sign in</h2>
+        <form action="submit_form.php" method="post">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required><br>
+            
+            <label for="more information">more information:</label>
+            <textarea id="more information" name="more information" rows="4" required></textarea><br>
+            <input type="reset"  value="reset">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+    
+    <footer>
+        <!-- about me -->
+        <h1>About me</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
